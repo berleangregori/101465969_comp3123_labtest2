@@ -1,0 +1,44 @@
+body{
+    background-color: #74e4f8;
+}
+
+.weather-search-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #74e4f8;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    margin-right: 10px;
+  }
+  
+  .search-button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  

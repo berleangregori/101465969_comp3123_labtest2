@@ -1,0 +1,40 @@
+  .weather-container {
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: "Roboto", sans-serif;
+  }
+
+  .city-name {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .weather-icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .temperature {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #ff4500;
+  }
+  
+  .condition, .humidity {
+    font-size: 1rem;
+    color: #555;
+  }
+
+  
+  
